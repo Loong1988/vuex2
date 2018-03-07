@@ -1,0 +1,104 @@
+.login{
+	margin-top: 3.75vw;
+	background: #FFFFFF;
+}
+.login li{
+	display: flex;
+	height: 12.5vw;
+	font-size: 3.75vw;
+	align-items: center;
+}
+.lo1{
+	width: 20vw;
+	text-indent: 3vw;
+}
+.lo2{
+	width: 50vw;
+	border:none;
+	font-size: 3.75vw;
+}
+
+.lo3{
+	width: 26vw;
+	border: 1px solid #ECBF29;
+	height: 9.375vw;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 9.35vw;
+	color: #ECBF29;
+}
+.login>li:not(:last-child){
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.pay>div{
+	
+	width: 66vw;
+	height: 11vw;
+	display: flex;
+	align-items: center;
+	margin: auto;
+	font-size: 4.0625vw;
+	color: #FFFFFF;
+	border-radius:5px ;
+	
+}
+.pay>div img{
+	width: 7vw;
+	margin-left: 19vw;
+	margin-right: 2vw;
+}
+.pay .d1{
+	background: #83ce3c;
+	margin-top: 11vw;
+}
+.pay .d2{
+	background: #21aff4;
+	margin-top: 6.25vw;
+}
+.or{
+	margin-top: 11vw;
+	margin-bottom: 6.25vw;
+}
+.or img{
+width: 50vw;
+display: block;
+margin: auto;
+}
+
+.send{
+	color: #dddddd;
+	border: 1px solid #DDDDDD;
+}
+::-webkit-input-placeholder {
+  color: #dddddd;
+}
+:-moz-placeholder {
+  color: #dddddd;
+}
+::-moz-placeholder{
+color: #dddddd;
+}
+:-ms-input-placeholder {
+  color: #dddddd;
+}
+
+.wxlogo{
+	width: 28vw;
+	display: block;
+	margin: auto;
+	margin-top: 10vw;
+}
+.imgbox img {
+  display: block;
+  width: 32.407407407407405vw;
+  margin: 20.37037037037037vw auto 13.888888888888888vw;
+}
+.imgbox a {
+  display: block;
+  text-align: center;
+  text-decoration: underline;
+  color: #666666;
+  font-size: 4vw;
+  margin-bottom: 10vw;
+}

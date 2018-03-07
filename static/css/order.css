@@ -1,0 +1,144 @@
+.address {
+  padding: 2vw;
+  display: flex;
+  background: #fff;
+  color: #666;
+}
+.address .left {
+  width: 50px;
+  background: url('/static/img/popleCenter/positions.png') no-repeat center / 5vw;
+}
+.address .right {
+  flex: auto;
+  font-size: 3.2vw;
+  padding-right: 4vw;
+  background: url('/static/img/tiaozhuan.png') no-repeat center right / 2.5vw;
+}
+.address .right .tell {
+  float: right;
+}
+.one {
+  display: flex;
+  background: #fafafa;
+  padding: 3vw;
+}
+.one .first {
+  width: 16vw;
+  background: url('/static/img/shop/nosel.png') no-repeat center center / 5vw;
+}
+.one .firstAct {
+  background: url('/static/img/shop/sel.png') no-repeat center center / 5vw;
+}
+.one .left {
+  width: 28vw;
+  height: 28vw;
+}
+.one .left img {
+  width: 100%;
+  height: 100%;
+}
+.one .right {
+  flex: auto;
+  padding: 0 3vw;
+  max-width: 60vw;
+}
+.one .right .weui-cells {
+  padding: 0;
+  margin: 0;
+}
+.one .right .weui-cell {
+  padding: 0;
+  margin: 0;
+}
+.one .right .vux-number-selector svg {
+  fill: #051b28;
+}
+.one .right .p1 {
+  font-size: 3.5vw;
+}
+.one .right .p2,
+.one .right .p3 {
+  color: #999;
+  font-size: 3vw;
+}
+.one .right .p5 > span {
+  color: #FF5000;
+}
+.one .right .p5 .num {
+  color: #666;
+  float: right;
+}
+.order-list li {
+  background: #fff url('/static/img/tiaozhuan.png') no-repeat 98% center / 2.5vw;
+  height: 10vw;
+  line-height: 10vw;
+  padding: 0 3vw;
+  color: #666;
+  font-size: 3.5vw;
+}
+.order-list li .sel-text {
+  float: right;
+  margin-right: 4vw;
+}
+.order-list .msgli {
+  background: #fff;
+}
+.order-list .msgli .msg {
+  width: 75vw;
+  border: none;
+  height: 90%;
+}
+.order-list li:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+.order-foot {
+  display: flex;
+  height: 15vw;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.order-foot > div {
+  height: 100%;
+  line-height: 15vw;
+  text-align: center;
+}
+.order-foot .left {
+  flex: 3;
+  background: #fff;
+  text-align: right;
+  padding-right: 5vw;
+}
+.order-foot .left span {
+  color: #FF5000;
+  margin: 0 1vw;
+}
+.order-foot .right {
+  flex: 1;
+  background: #f50;
+  color: #fff;
+}
+.mains {
+  height: 100%;
+  overflow: scroll;
+}
+.sel-address {
+  font-size: 3.2vw;
+  height: 100%;
+  color: #666;
+  background: #eeeeee;
+  margin-top: 10vw;
+}
+.sel-address .one-address {
+  min-height: 14vw;
+  padding: 2vw 10vw 2vw 2vw;
+  background: #fff;
+}
+.sel-address .one-address .p1 .tell {
+  float: right;
+}
+.sel-address .act {
+  color: #fff;
+  background: #5e6b85 url('/static/img/shop/seladdress.png') no-repeat 97% center / 5vw;
+}
+/*# sourceMappingURL=order.css.map */

@@ -1,0 +1,87 @@
+[
+    {
+        "id": "1001",
+        "name": "黄渤",
+        "portrait": "/static/img/friend/hb.png",
+        "cont": "2000年，黄渤出演管虎执导的电视电影《上车，走吧》，这是他的第一部影视作品。2006年凭借宁浩执导的电影《疯狂的石头》而成名。2009年，凭借《斗牛》获得第46届台湾电影金马奖“最佳男主角奖”。2010年，主演宁浩的喜剧电影《疯狂的赛车》",
+        "time": "1512559721121",
+        "sel":false,
+        "imglist": [
+            "/static/img/friend/cont1.jpg",
+            "/static/img/friend/cont2.jpg",
+            "/static/img/friend/cont1.jpg",
+            "/static/img/friend/cont3.jpg"
+        ],
+        "discuss": [
+            {
+            	"disId":"0",
+                "name": "邓超",
+                "dis": "不错，，，，",
+                "reply": [
+                    {
+                    	"name1": "邓超",
+                        "name2": "黄渤",
+                        "cont": "必须的"
+                    },
+                    {
+                        "name1": "邓超",
+                        "name2": "黄渤",
+                        "cont": "呵呵呵，有空一起合作"
+                    }
+                ]
+            },
+            {
+            	"disId":"1",
+                "name": "邓超",
+                "dis": "嗯，找时间一起喝茶",
+                "reply": [
+                    {
+                        "name1": "邓超",
+                        "name2": "黄渤",
+                        "cont": "你懂"
+                    }
+                ]
+            }
+        ],
+        "praise": [
+            "邓超",
+            "拿破仑",
+            "爱因斯坦"
+        ]
+    },
+    {
+        "id": "1002",
+        "name": "郑爽",
+        "portrait": "/static/img/friend/zs.png",
+        "cont": "哈哈。获得第25届中国电视金鹰节电视剧最佳女演员提名。",
+        "time": "1512413009140",
+        "sel":false,
+        "imglist": [
+            "/static/img/friend/cont1.jpg"
+        ],
+        "discuss": [
+            {
+            	"disId":"0",
+                "name": "黄渤",
+                "dis": "恭喜恭喜",
+                "reply": []
+            },
+            {
+            	"disId":"1",
+                "name": "邓超",
+                "dis": "不错you",
+                "reply": [
+                    {
+                        "name2": "郑爽",
+                        "name1": "邓超",
+                        "cont": "还要学习，哈哈哈哈"
+                    }
+                ]
+            }
+        ],
+        "praise": [
+            "阿卜杜拉",
+            "希特勒"
+        ]
+    }
+]

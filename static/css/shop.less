@@ -1,0 +1,129 @@
+ @w: 10.8;
+ .header_position {
+     border-bottom: 1px solid #EEEEEE;
+ }
+ .edit{
+     display: inline-block;
+    width: 12vw;
+    position: absolute;
+    right: 2vw;
+    color: #aaa;
+    font-size: 3.5vw;
+ }
+ .shop {
+         overflow: scroll;
+    height: 95vh;
+     .tit-head {
+         height: 10vw;
+         background: #FFF;
+         overflow: hidden;
+         .del {
+             width: 20vw;
+             border: 2px solid #fd2a32;
+             color: #fd2a32;
+             float: right;
+             margin-right: 3vw;
+             height: 6vw;
+             margin: 2vw;
+             text-align: center;
+             line-height: 6vw;
+             border-radius: 4vw;
+             font-size: 3.5vw;
+         }
+         .allsel{
+             width: 20vw;
+             border: 2px solid #FF5000;
+              color: #FF5000;
+             float: right;
+             height: 6vw;
+             margin: 2vw;
+             text-align: center;
+             line-height: 6vw;
+             border-radius: 4vw;
+             font-size: 3.5vw;
+         }
+     }
+     .one {
+         display: flex;
+         width: 100%;
+         background: #fafafa;
+             padding: 2vw 0;
+         .first{
+             width: 16vw;
+             background: url('/static/img/shop/nosel.png') no-repeat center center ~'/'5vw;
+         }
+         .firstAct{
+             background: url('/static/img/shop/sel.png') no-repeat center center ~'/'5vw;
+         }
+         .left {
+             width: 28vw;
+             height: 28vw;
+             img {
+                 width: 100%;
+                 height: 100%;
+             }
+         }
+         .right{
+            flex: auto;
+            padding: 0 2vw;
+            .weui-cells{
+                padding: 0;
+                margin: 0;
+            }
+            .weui-cell{
+                padding: 0;
+                margin: 0;
+            }
+            .vux-number-selector svg {
+                fill: #051b28;
+            }
+            .p1{
+                font-size: 3.5vw; 
+            }
+            .p2,.p3{
+                color: #999;
+                font-size: 3vw;
+            }
+            .p5{
+                &>span{
+                        color: #FF5000;
+                }
+
+            }
+         }
+     }
+ }
+ .shop-footer{
+     height: 150vw/@w;
+     background: #fff;
+     position: fixed;
+     bottom: 0;
+     display: flex;
+     width: 100%;
+     line-height: 150vw/@w;
+     text-align: center;
+     border-top: 1px solid #ccc;
+     .d1{
+         width: 225vw/@w;
+         nav{
+                 width: 100%;
+                 height: 100%;
+                 text-align: right;
+                background: url('/static/img/shop/nosel.png') no-repeat 5.5vw center ~'/' 5vw;
+         }
+                  .firstAct{
+             background: url('/static/img/shop/sel.png') no-repeat 5.5vw center ~'/'5vw;
+         }
+     }
+     .d2{
+         width: 500vw/@w;
+     }
+     .d3{
+        flex: auto;
+        background: #ff5500;
+        color: #ffaa80;
+     }
+     .fonts{
+         color: #fff;
+     }
+ }

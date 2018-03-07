@@ -1,0 +1,172 @@
+[
+	{
+		"src": "../../../../static/img/worksDetail/zeju/zeju-tit.png",
+		"title": "择居网",
+		"desc": "全维度购房服务平台。专注于为购房者提供选房、看房、购房、购后等一站式购房服务。",
+		"url": {
+			"path": "/center/worksDetail/1/0",
+			"replace": false
+		},
+		"detail": {
+
+			"util": "Eclipse，Tomcat，Dreamweaver",
+			"data": "MySql",
+			"technology": "此项目采用B/S结构，主要运用Html+JavaScript的页面前端技术，使用JQuery库。使用客户端与服务器端之间的异步通讯技术。",
+			"link": "http://www.zeju.com",
+			"myDuty": "责任描述：参与需求分析、系统设计、相关模块java代码编写与实现。主要负责PC端的后台代码。",
+			"function": [
+				"用户方面：提供了注册用户，用户不登陆可以浏览房源，只有在登录情况下才可进行购买。",
+				"浏览房源：房源的新品、特价显示和对其进行查看详细信息。使用百度地图接口,用户可直接在择居网使用地图.自动计算距离,显示周围商铺.",
+				"购物车：模拟真实购物场景实现网上购物功能。",
+				"订单详情：通过会员登录来购买房源结账后，在订单详情中显示，可以对其进行详细查看。",
+				"预约看房: 用户可输入电话预约销售顾问进行预约看房.",
+				"管理员：只有在管理员登录的情况下，再能对其进行操作。",
+				"房源管理：对房源的添加，删除，修改，查询等操作。",
+				"会员管理：查看会员信息和进行解冻、冻结的操作。添加删除房源.",
+				"订单管理：查看订单详细信息，对订单进行执行和未执行的操作。"
+			],
+			"imgs": [
+				"../../../../static/img/worksDetail/zeju/zeju-ban1.png",
+				"../../../../static/img/worksDetail/zeju/zeju-ban2.png",
+				"../../../../static/img/worksDetail/zeju/zeju-ban3.png"
+			]
+		},
+		"meta": {
+			"source": "开发周期:",
+			"date": "7个月",
+			"other": "人数：8人"
+		}
+	}, {
+		"src": "../../../../static/img/worksDetail/caimi/logo.png",
+		"title": "采蜜2.0",
+		"desc": "“采蜜”是一个专门为商家提供产品推广的平台。许多商家为了推广会给到平台可观的提成，这其中大部分商家为了开拓市场冲销量都是亏本在平台做推广。而“蜜粉”需要把“采蜜”推荐给身边有需要的朋友，让他们享受到优惠和返利的同时，自己也可持续得到商家给的提成，这是一件利人利己且有意义的事情。采蜜平台将为“蜜粉”提供源源不断的可观收入。",
+		"url": {
+			"path": "/center/worksDetail/1/1",
+			"replace": false
+		},
+		"detail": {
+			"util": "Eclipse，Tomcat，HBuilder",
+			"data": "MySql",
+			"technology": "此项目采用B/S结构，使用前后台分离技术，使用angular渲染数据,下拉刷新使用ionic+angular",
+			"link": "http://www.caimiing.com/",
+			"myDuty": "负责webApp的前台代码编写，与ios，android共同开发混合app",
+			"function": [
+				"用户方面：登陆，注册，手机验证码发放。",
+				"首页：数据展示，新手指引，滑动公告。",
+				"邀请好友：根据邀请好友数据给予奖励。",
+				"我的接单：历史接单记录，已经订单状态查询。下拉刷新，上拉加载",
+				"我的维权：对订单有异议，联系客服维权。",
+				"后台：发单，审核，维权。"
+			],
+			"imgs": [
+				"../../../../static/img/worksDetail/caimi/caimi1.png",
+				"../../../../static/img/worksDetail/caimi/caimi2.png",
+				"../../../../static/img/worksDetail/caimi/caimi3.png"
+			]
+		},
+		"meta": {
+			"source": "开发周期:",
+			"date": "4个月",
+			"other": "人数：6人"
+		}
+	}
+	, {
+		"src": "../../../../static/img/worksDetail/tianyao/logo.png",
+		"title": "吉林天药",
+		"desc": "吉林天药科技有限公司（Jilin Tianyao Science and Technology. Co., Ltd，以下简称：“天药科技”）是一家致力于研发新药并与产业化和市场营销紧密结合，业务模型先进、具有广阔发展空间的高科技、高成长型公司。主要为一个医药公司制作后台管理，以及复杂的订单流程管理；",
+		"url": {
+			"path": "/center/worksDetail/1/2",
+			"replace": false
+		},
+		"detail": {
+			"util": "Eclipse，Tomcat，HBuilder",
+			"data": "MySql",
+			"technology": "此项目采用B/S结构，使用Spring+mybatis +JQuery+Ajax+Jsp开发模式",
+			"link": "http://www.gjbct.com",
+			"myDuty": "负责微信端的web页面，",
+			"function": [
+				"订单发起，订单修改，保存草稿箱。",
+				"订单多级审核，驳回，修改，再次提交。",
+				"区域人员变动",
+				"消息提醒",
+				"退换货管理",
+				"后台权限管理"
+			],
+			"imgs": [
+				"../../../../static/img/worksDetail/tianyao/ty1.jpg",
+				"../../../../static/img/worksDetail/tianyao/ty2.jpg",
+				"../../../../static/img/worksDetail/tianyao/ty3.jpg"
+			]
+		},
+		"meta": {
+			"source": "开发周期:",
+			"date": "6个月",
+			"other": "人数：5人"
+		}
+	}
+	, {
+		"src": "../../../../static/img/worksDetail/xiaohong/logo.png",
+		"title": "小红理财2.0",
+		"desc": "小红理财app是一款金融理财类应用（同时有pc端和移动端），小红理财app为用户提供不同年华收益的理财产品，满足用户理财需求，现在注册，还能专享新手福利。订单多级审核，驳回，修改，再次提交；",
+		"url": {
+			"path": "/center/worksDetail/1/3",
+			"replace": false
+		},
+		"detail": {
+			"util": "Eclipse，Tomcat，HBuilder",
+			"data": "MySql",
+			"technology": "html+JQuery +wicket(java框架)",
+			"link": "http://wap.xiaohonglicai.com",
+			"myDuty": "参与需求分析、UE设计、以及PC端html和手机端html的代码编写。",
+			"function": [
+				"注册，登录，密码找回，做任务赠送优惠价 。",
+					"投资标的，计算收益 ，使用优惠卷。",
+				"新闻列表，小红商城。",
+					"个人中心查询投标记录，消息中心，关于我们。",
+					"后台上传轮播图，上传新闻，活动，订单审核，修改，驳回等权限。"
+			],
+			"imgs": [
+				"../../../../static/img/worksDetail/xiaohong/xiaohong1.jpg",
+				"../../../../static/img/worksDetail/xiaohong/xiaohong2.jpg",
+				"../../../../static/img/worksDetail/xiaohong/xiaohong3.png"
+			]
+		},
+		"meta": {
+			"source": "开发周期:",
+			"date": "5个月",
+			"other": "人数：6人"
+		}
+	}
+		, {
+		"src": "../../../../static/img/worksDetail/nine/logo.png",
+		"title": "九号钱庄",
+		"desc": "9号钱庄app是一款非常好用的借贷app，多种借贷方案可供选择，审核门槛低，审核速度快，是您解决资金周转问题的不二之选 , 九号钱庄是北京矩信科技有限公司，为小贷公司，小贷业务员，借款人提供一个方便快捷的交易工具； 该工具可以为小贷公司提供意向客户，业务员提供业务对象，借款人推荐好的借款公司。",
+		"url": {
+			"path": "/center/worksDetail/1/4",
+			"replace": false
+		},
+		"detail": {
+			"util": "Eclipse，Tomcat，HBuilder",
+			"data": "MySql",
+			"technology": "jsp+jquery",
+			"link": "http://m.9haoqianzhuang.com/main/index",
+			"myDuty": "参与需求分析、UE设计、以及PC端html和手机端html的代码编写。",
+			"function": [
+				"注册，登陆，密码找回",
+				"搜索同城业务员，寻找合适贷款方。",
+				"发布贷款信息，优惠活动。"
+			],
+			"imgs": [
+				"../../../../static/img/worksDetail/nine/nine1.png",
+				"../../../../static/img/worksDetail/nine/nine1.png",
+				"../../../../static/img/worksDetail/nine/nine1.png"
+			]
+		},
+		"meta": {
+			"source": "开发周期:",
+			"date": "3个月",
+			"other": "人数：6人"
+		}
+	}
+]
+

@@ -1,0 +1,75 @@
+html,
+body {
+  background: #EEEEEE !important;
+}
+.about-body {
+  padding: 3.7037037037037033vw;
+  background: #fff;
+  width: 80vw;
+  border-radius: 1.111111111111111vw;
+  margin: 3.5vw auto;
+}
+.about-body .title {
+  font-size: 4.0740740740740735vw !important;
+  color: #222;
+}
+.about-body .title span {
+  background: #ecbf28;
+  padding: 0 2vw;
+  border-radius: 1vw;
+  margin-right: 2vw;
+  float: right;
+}
+.about-body .text {
+  color: #919093;
+  font-size: 3.333333333333333vw;
+}
+.kong {
+  height: 12.037037037037036vw;
+}
+.search-head {
+  height: 12.037037037037036vw;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+.search-head .search-d1 {
+  width: 9.25925925925926vw;
+  height: 100%;
+  background: url(/static/img/popleCenter/fanhui.png) no-repeat center / 2.7777777777777777vw;
+}
+.search-head .search-d2 {
+  font-size: 3.7037037037037033vw;
+  color: #222222;
+  flex: auto;
+  text-align: center;
+  line-height: 12.037037037037036vw;
+}
+.search-head .input-box {
+  height: 8.518518518518517vw;
+  width: 70.37037037037037vw;
+  background: #EDEEF1;
+  border-radius: 4.259259259259259vw;
+  display: flex;
+  align-items: center;
+}
+.search-head .input-box .search-name {
+  width: 76%;
+  font-size: 4.5vw;
+  font-size: 3.333333333333333vw;
+  border: none;
+  background: transparent;
+}
+.search-head .input-box .titiocn {
+  width: 7.7vw;
+  height: 100%;
+}
+.search-head .input-box .tit1 {
+  background: url(/static/img/popleCenter/search.png) no-repeat center / 3.7037037037037033vw;
+}
+.search-head .input-box .tit2 {
+  background: url(/static/img/popleCenter/delete.png) no-repeat center / 3.7037037037037033vw;
+}
+/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,158 @@
+@w: 5.4;
+//.order{
+.address {
+        padding: 2vw;
+        display: flex;
+        background: #fff;
+        color: #666;
+        .left {
+            width: 50px;
+            background: url('/static/img/popleCenter/positions.png') no-repeat center ~'/' 5vw;
+        }
+        .right {
+            flex: auto;
+            font-size: 3.2vw;
+            padding-right: 4vw;
+            background: url('/static/img/tiaozhuan.png') no-repeat center right ~'/'2.5vw;
+            .tell {
+                float: right;
+            }
+        }
+    }
+
+         .one {
+         display: flex;
+         background: #fafafa;
+             padding: 3vw;
+         .first{
+             width: 16vw;
+             background: url('/static/img/shop/nosel.png') no-repeat center center ~'/'5vw;
+         }
+         .firstAct{
+             background: url('/static/img/shop/sel.png') no-repeat center center ~'/'5vw;
+         }
+         .left {
+             width: 28vw;
+             height: 28vw;
+             img {
+                 width: 100%;
+                 height: 100%;
+             }
+         }
+         .right{
+            flex: auto;
+            padding: 0 3vw;
+            max-width: 60vw;
+            .weui-cells{
+                padding: 0;
+                margin: 0;
+            }
+            .weui-cell{
+                padding: 0;
+                margin: 0;
+            }
+            .vux-number-selector svg {
+                fill: #051b28;
+            }
+            .p1{
+                font-size: 3.5vw; 
+            }
+            .p2,.p3{
+                color: #999;
+                font-size: 3vw;
+            }
+            .p5{
+                &>span{
+                        color: #FF5000;
+                }
+                .num{
+                    color: #666;
+                        float: right;
+                }
+
+            }
+         }
+     }
+
+.order-list{
+    li{
+        background: #fff url('/static/img/tiaozhuan.png') no-repeat  98% center ~'/'2.5vw;
+        height: 10vw;
+        line-height: 10vw;
+        padding: 0 3vw;
+        color: #666;
+            font-size: 3.5vw;
+            .sel-text{
+                float: right;
+                margin-right: 4vw;
+            }
+           
+    }
+    .msgli{
+        background: #fff ;
+         .msg{
+                width: 75vw;
+                border: none;
+                height: 90%;
+                
+            }
+    }
+    li:not(:last-child){
+        border-bottom: 1px solid #ccc;
+    }
+    
+}
+.order-foot{
+    display: flex;
+    height: 15vw;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+    &>div{
+        height: 100%;
+        line-height: 15vw;
+        text-align: center;
+    }
+    .left{
+        flex: 3;
+        background: #fff;
+        text-align: right;
+        padding-right: 5vw;
+        span{
+            color: #FF5000;
+            margin: 0 1vw;
+        }
+    }
+    .right{
+        flex: 1;
+        background: #f50;
+        color: #fff;
+    }
+} 
+//}
+    
+.mains{
+        height: 100%;
+    overflow: scroll;
+}
+.sel-address{
+    font-size: 3.2vw;
+    height: 100%;
+    color: #666;
+    background: #eeeeee;
+        margin-top: 10vw;
+    .one-address{
+            min-height: 14vw;
+        padding: 2vw 10vw 2vw 2vw;
+        background: #fff;
+        .p1{
+            .tell{
+                float: right;
+            }
+        }
+    }
+    .act{
+        color: #fff;
+        background:#5e6b85 url('/static/img/shop/seladdress.png') no-repeat  97% center ~"/"5vw;
+    }
+}
